@@ -927,8 +927,8 @@ def settings_menu(game):
         # วาดแถบเลื่อน
         bg_label = FONTS["stats"].render("Background Music", True, COLORS["WHITE"])
         fx_label = FONTS["stats"].render("Sound Effects", True, COLORS["WHITE"])
-        SCREEN.blit(bg_label, (WIDTH * 0.15, HEIGHT * 0.35))
-        SCREEN.blit(fx_label, (WIDTH * 0.15, HEIGHT * 0.5))
+        SCREEN.blit(bg_label, (WIDTH * 0.12, HEIGHT * 0.34))
+        SCREEN.blit(fx_label, (WIDTH * 0.12, HEIGHT * 0.49))
         bg_slider.draw(SCREEN)
         fx_slider.draw(SCREEN)
 
